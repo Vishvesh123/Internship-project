@@ -1,0 +1,36 @@
+.create-form {
+  z-index: 2;
+}
+
+.create-account {
+  width: 70%;
+  margin: auto;
+}
+
+.custom-modal-header {
+  padding: 1rem;
+}
+
+.text-primary {
+  color: #007bff;
+}
+
+.custom-input {
+  margin-bottom: 1rem;
+}
+
+.button-signup-group {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.info-signup {
+  font-size: 0.875rem;
+  color: #6c757d;
+}
+.close-create-form-btn {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+}

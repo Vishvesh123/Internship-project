@@ -1,0 +1,9 @@
+.Card1 {
+  max-width: 692px;
+  border-color: rgb(224, 224, 224);
+  fill: rgb(255, 255, 255);
+}
+
+.Card1 .share-btn {
+  background: rgb(237, 238, 240);
+}

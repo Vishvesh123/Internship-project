@@ -1,0 +1,39 @@
+.sidebar {
+  width: 100%;
+  max-width: 300px;
+  padding: 1rem;
+}
+
+.container {
+  margin-top: 1.5rem;
+}
+
+.location input::placeholder {
+  position: relative;
+  left: 25px;
+}
+.input-text {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 0.5rem 0;
+}
+
+.location-info {
+  font-size: 0.875rem;
+  color: #525252;
+}
+
+.text-recommended {
+  font-weight: 600;
+}
+
+.follow {
+  background-color: transparent;
+  border: 1px solid #007bff;
+  color: #007bff;
+}
+
+.text-primary {
+  color: #007bff !important;
+}

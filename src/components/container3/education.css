@@ -1,0 +1,18 @@
+.post-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  max-width: 692px;
+  border-color: rgb(224, 224, 224);
+  fill: rgb(255, 255, 255);
+  margin-top: 8px;
+}
+
+.post-content {
+  padding: 1rem;
+}
+
+.post-title {
+  display: flex;
+}

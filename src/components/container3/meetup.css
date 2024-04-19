@@ -1,0 +1,17 @@
+.card-container {
+  width: 692px;
+  border-color: rgb(224, 224, 224);
+  fill: rgb(255, 255, 255);
+}
+.card-container .imagePost {
+  height: 220px;
+}
+
+.custom-post-link {
+  color: rgb(229, 97, 53);
+  width: 100%;
+}
+
+.share-btn {
+  background: rgb(237, 238, 240);
+}

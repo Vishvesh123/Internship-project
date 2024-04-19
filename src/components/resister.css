@@ -1,0 +1,57 @@
+.create-form {
+  z-index: 2;
+}
+
+.create-account {
+  width: 70%;
+  margin: auto;
+}
+
+.custom-modal-header {
+  padding: 1rem;
+}
+
+.text-primary {
+  color: #007bff;
+}
+
+.custom-input {
+  margin-bottom: 1rem;
+}
+
+.button-signup-group {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.info-signup {
+  font-size: 0.875rem;
+  color: #6c757d;
+}
+.close-create-form-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.create-form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Ensure the overlay is on top of other elements */
+}
+
+.create-form-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+}

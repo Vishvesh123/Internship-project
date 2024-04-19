@@ -1,0 +1,15 @@
+.Card {
+  max-width: 692px;
+
+  border-color: rgb(224, 224, 224);
+  fill: rgb(255, 255, 255);
+}
+
+.Card.custom-post-link {
+  color: rgb(2, 184, 117);
+  width: 100%;
+}
+
+.Card.share-btn {
+  background: rgb(237, 238, 240);
+}

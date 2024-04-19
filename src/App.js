@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Header from "./components/Header";
+import Container1 from "./components/Container1";
+import Container2 from "./components/Container2";
+import Container3 from "./components/Container3";
+import "./app.css";
 
-function App() {
+function App(props) {
+  const [showResister, setResister] = useState(false);
+
+  const handleShowResister = () => {
+    setResister(true);
+  };
+  const handleCloseResister = () => {
+    setResister(false);
+  };
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header
+        handleShowResister={handleShowResister}
+        showResister={showResister}
+        handleCloseResister={handleCloseResister}
+      />
+      <Container1 />
+      <Container2 />
+      <Container3 />
     </div>
   );
 }
